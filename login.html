@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NH Bank - 로그인</title>
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://code.jquery.com/jquery-migrate-3.4.0.min.js"></script>
+  <script src="javascript/script.js" defer></script>
+</head>
+<body>
+
+  <header class="clear">
+    <div class="header-l fl">
+      <div class="l-top">
+        <div class="point"></div>
+        <div class="logo">
+          <img src="images/NH Bank.jpg" alt="농협은행">
+        </div>
+        <div class="toggle">
+          <img src="images/btn_big.png" alt="" class="on">
+          <a href="index.html" class="nomal">개인</a>
+          <a href="main_big.html" class="big">큰글</a>
+        </div>
+        <a href="#"><span>기업</span></a>
+        <a href="#"><span>카드</span></a>
+      </div>
+      <div class="l-bottom">
+        <div class="login">
+          <a href="#">
+            <p>로그인</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="header-r">
+      <div class="r-top clear">
+        <div class="search fr">
+          <img src="images/검색 (1).gif" alt="">
+        </div>
+        <div class="setting fr">
+          <img src="images/설정.png" alt="">
+        </div>
+        <div class="bookmark fr">
+          <img src="images/ico_favorite_off.gif" alt="">
+        </div>
+        <div class="language fr">
+          Language
+          <i class="fa-solid fa-caret-up"></i>
+          <a href="#">
+            <p>Korean</p>
+          </a>
+        </div>
+      </div>
+      <div class="r-bottom">
+        <a href="#">
+          <span>외환</span>
+        </a>
+        <a href="#">
+          <span>퇴직연금</span>
+        </a>
+        <a href="#">
+          <span>보안센터</span>
+        </a>
+        <a href="#">
+          <span>고객센터</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <div class="contents-wrap">
+    <div class="login-wrap">
+      <div class="login-tab">
+        <div class="on">인증서 로그인</div>
+        <div>스마트 로그인</div>
+        <div>ID/비밀번호</div>
+      </div>
+      <div class="login-con">
+        <div class="con1 on">
+          <p><span>인증서</span>로 로그인 하실 수 있습니다.</p>
+          <div class="button-wrap">
+            <button>금융인증서 로그인</button>
+            <button>공동인증서(구 공인인증서) 로그인</button>
+          </div>
+          <div class="span-wrap">
+            <span>금융인증서 발급 ></span>
+            <span>공동인증서 발급 ></span>
+            <span>인증센터 ></span>
+          </div>
+        </div>
+        <div class="con2">
+          <p><span>NH스마트뱅킹앱</span>과 연동하여 로그인할 수 있습니다.</p>
+          <div class="button-wrap">
+            <button>간편뱅킹 로그인</button>
+            <button>지문인증 로그인</button>
+            <button>NHOnePASS 로그인</button>
+          </div>
+          <div class="span-wrap">
+            <span>간편뱅킹 이용가이드 ></span>
+            <span>지문인증 이용가이드 ></span>
+            <span>NHOnePASS 이용가이드 ></span>
+          </div>
+        </div>
+        <div class="con3">
+          <p><span>e농협회원</span>님은 일부 조회 서비스이용이 가능합니다.</p>
+          <form action="">
+            <div class="login-text">
+              <p><input type="text" name="id"  id="id" placeholder="아이디(ID)"></p>
+              <p><input type="password" name="pwd" id="pwd" placeholder="비밀번호(PW)"></p>
+            </div>
+            <input type="button" id="sub" value="로그인">
+          </form>
+          <div class="span-wrap">
+            <span>e농협 회원가입 ></span>
+            <span>ID 찾기 ></span>
+            <span>비밀번호초기화(재설정) ></span>
+          </div>
+        </div>
+      </div>
+      <div class="login-bottom"></div>
+    </div>
+  </div>
+
+</body>
+
+</html>

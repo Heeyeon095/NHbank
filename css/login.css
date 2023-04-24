@@ -1,0 +1,217 @@
+header {
+  height: 120px;
+  border-bottom: 1px solid #ddd;
+}
+
+.l-bottom {
+  background-color: #fff;
+  border: none;
+}
+
+.login {
+  width: 50%;
+  height: 100%;
+  color: #265ed4;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  margin-left: -15px;
+}
+
+.login p {
+  border: none;
+}
+
+.contents-wrap {
+  position: relative;
+  width: 1200px;
+  left: calc(50% - 600px);
+  padding: 20px 120px;
+  margin-top: 50px;
+}
+
+.login-tab {
+  display: flex;
+  position: relative;
+}
+
+.login-tab div {
+  border: 1px solid #ddd;
+  width: 320px;
+  border-right: none;
+  border-bottom: none;
+  padding: 15px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #666;
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: 1px solid #245ed4;
+}
+
+.login-tab > div:first-child {
+  border-color: #245ed4;
+  border-right: 1px solid #245ed4;
+  border-bottom: none;
+}
+
+.login-tab > div:nth-child(2) {
+  border-left: none;
+}
+
+.login-tab div:last-child {
+  border-right: 1px solid #ddd;
+}
+
+.login-con {
+  position: relative;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.login-con > div {
+  position: absolute;
+  width: 100%;
+  height: 350px;
+  background-color: #fff;
+  display: none;
+  border-bottom: 1px solid #ddd;
+}
+
+.login-con > .con3 {
+  height: 400px;
+}
+
+.login-con > div.on {
+  display: block;
+}
+
+.login-con > div > p {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #333;
+  height: 100px;
+  line-height: 100px;
+}
+
+.login-con > div > p > span {
+  color: #265ed4;
+}
+
+.button-wrap {
+  margin-top: -10px;
+}
+
+.con1 button {
+  padding: 15px;
+  margin: 30px 10px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  width: 300px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  background-color: #265ed4;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.con1 button:hover {
+  opacity: 0.7;
+}
+
+.span-wrap {
+  margin: 20px 0;
+}
+
+.span-wrap span {
+  margin: 0 20px;
+  cursor: pointer;
+  color: #666;
+}
+
+.span-wrap span:hover {
+  text-decoration: underline;
+  color: #333;
+}
+
+.con2 .button-wrap button {
+  width: 200px;
+  padding: 15px;
+  margin: 30px 10px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.con2 .button-wrap button:hover {
+  opacity: 0.7;
+}
+
+
+.con2 .button-wrap button:first-child {
+  background-color: #245ed4;
+}
+
+.con2 .button-wrap button:nth-child(2) {
+  background-color: #0d942f;
+}
+
+.con2 .button-wrap button:last-child {
+  background-color: #ec720f;
+}
+
+.con3 {
+  position: relative;
+}
+
+.con3 form {
+  position: relative;
+  left: calc(50% - 200px);
+  display: flex;
+}
+
+.login-text {
+  margin-bottom: 20px;
+}
+
+.login-text input {
+  height: 50px;
+  width: 280px;
+  padding: 10px;
+  border: none;
+  background-color: #f7f7f7;
+  font-size: 14px;
+  margin: 5px 10px;
+  border-radius: 5px;
+}
+
+.login-text input:focus {
+  outline: none;
+}
+
+.con3 > form > input {
+  width: 110px;
+  height: 110px;
+  margin-top: 5px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border: none;
+  background-color: #245ed4;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.con3 > form > input:hover {
+  opacity: 0.7;
+}
